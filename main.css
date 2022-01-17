@@ -96,11 +96,12 @@ li a:target {
     display: flex;
     width: 100%;
     height: auto;
+    position: relative;
 }
 .Photo-quote {
     display: inline-block;
     vertical-align: top;
-    margin: 1rem auto 1rem auto;
+    margin: 1rem auto 0 auto;
     text-align: center;
     width: calc(90%/3 - 2rem);
     height: auto;
@@ -110,4 +111,14 @@ li a:target {
 .photo {
     max-width: 100%;
     height: auto;
+}
+
+.quote {
+    display: inline-block;
+    align-items: middle;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: calc(90%/3 - 2rem);
+    height: auto;
+    object-fit: contain;
 }
